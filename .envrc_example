@@ -1,0 +1,10 @@
+# node path
+export PATH=
+
+export VITE_HOST=
+export VITE_PORT=
+export VITE_ALLOWED_HOSTS=
+export VITE_SSL_CRT_FILE=
+export VITE_SSL_KEY_FILE=
+
+export PORT=

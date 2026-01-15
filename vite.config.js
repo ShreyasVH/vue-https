@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => {
     server: {
       host: process.env.VITE_HOST,
       port: process.env.VITE_PORT,
+      allowedHosts: [process.env.VITE_ALLOWED_HOSTS],
       https: {
         key: fs.readFileSync(process.env.VITE_SSL_KEY_FILE),
         cert: fs.readFileSync(process.env.VITE_SSL_CRT_FILE)
